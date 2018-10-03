@@ -1,0 +1,7 @@
+#jumboStyle {
+  background: url('../assets/birds-691274_1280.jpg') no-repeat center;
+  background-size: cover;
+  color: var(--green);
+  text-align: center;
+  font-weight: bold;
+}

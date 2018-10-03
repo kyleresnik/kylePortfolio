@@ -1,12 +1,13 @@
 :root {
   --red: #e80d0d;
   --orange: #f98500;
-  --yellow: #ffc600;
-  --green: #10a503;
+  --yellow: #ffe68a;
+  --green: #a2d857;
   --blue-green: #0ed6a4;
   --blue: #0071b2;
-  --purple: #6a00b2;
+  --purple: #a97ac8;
   --brown: #8c7a51;
   --grey: #53565A;
   --black: #272727;
+  --font-one: 'Rubik', sans-serif;
 }

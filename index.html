@@ -5,10 +5,135 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="Kyle Resnik">
-  <title>Kyle Resnik's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <title>Kyle Resnik's Portfolio</title>
 </head>
 <body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navStyle">
+    <a class="navbar-brand" href="#">Kyle Resnik | Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" id="listStyle">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Jumbotron-->
+  <div class="jumbotron jumbotron-fluid" id="jumboStyle">
+    <div class="container">
+      <h1 class="display-4">Kyle Resnik</h1>
+      <p class="lead">Freelance web designer and developer based out of Indiana.</p>
+    </div>
+  </div>
+
+  <!--Projects-->
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <a href="https://codepen.io/kresnik/pen/KxLRdr"><img src="../portfolio/assets/cqsCtS5FoSyoj7bga26Tl4Ku_400x400.png" id="projectPic"></a>
+      </div>
+      <div class="col-4">
+        <a href="https://jet-alone.github.io/tutorialPage/"><img src="../portfolio/assets/cqsCtS5FoSyoj7bga26Tl4Ku_400x400.png" id="projectPic"></a>
+      </div>
+      <div class="col-4">
+        <a href="https://jet-alone.github.io/tutorialPage/"><img src="../portfolio/assets/cqsCtS5FoSyoj7bga26Tl4Ku_400x400.png" id="projectPic"></a>
+      </div>
+    </div>
+  </div>
+
+  <!--About Me-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p id="aboutMe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quis eum modi, ducimus ad sed. Natus ea enim distinctio officiis nostrum dolor doloribus rem modi ducimus quam fugit, quidem commodi?</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Contact Form-->
+  <section id="about"></section>
+  <section id="portfolio"></section>
+  <section id="contact">
+   <div class="container">
+     <h2 class="text-center text-uppercase">Contact Me</h2>
+     <div class="row">
+       <form action="https://formspree.io/kylebresnik@gmail.com" method="POST">
+         <div class="control-group">
+           <div class="form-group">
+             <label>Name</label>
+             <input
+               type="text"
+               class="form-control"
+               placeholder="Your Name"
+               id="name"
+               required
+               data-validation-required-message="Please enter your name"
+               name="name"
+               >
+             <p class="help-block text-danger"></p>
+           </div>
+         </div>
+         <div class="control-group">
+           <div class="form-group">
+             <label>Email Address</label>
+             <input
+               type="email"
+               class="form-control"
+               placeholder="Your Email"
+               id="email"
+               required
+               data-validation-required-message="Please enter your email"
+               name="_replyto"
+             >
+             <p class="help-block text-danger"></p>
+           </div>
+         </div>
+         <div class="control-group">
+           <div class="form-group">
+             <textarea
+               class="form-control"
+               rows="7"
+               placeholder="Your Message"
+               id="message"
+               required
+               data-validation-required-message="Please leave a message"
+               name="message"
+             ></textarea>
+             <p class="help-block text-danger"></p>
+           </div>
+         </div>
+         <div class="text-center">
+           <div id="success"></div>
+           <button type="submit" class="btn btn-lg btn-black">
+             <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+             Send Message
+           </button>
+         </div>
+       </form>
+     </div>
+   </div>
+  </section>
+  <br>
+  <br>
   
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
