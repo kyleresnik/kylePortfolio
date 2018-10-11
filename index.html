@@ -19,17 +19,14 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav" id="listStyle">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="#linkToProjects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#linkToAbout">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#linkToContact">Contact</a>
         </li>
       </ul>
     </div>
@@ -41,39 +38,71 @@
       <p class="lead">Freelance web designer and developer based out of Indiana.</p>
     </div>
   </div>
-
+  <br>
+  <br>
+  <br>
   <!--Projects-->
   <div class="container">
-    <div class="row">
+    <div class="row"><a name="linkToProjects"></a>
       <div class="col-4">
-        <a href="https://codepen.io/kresnik/pen/KxLRdr"><img src="./assets/cqsCtS5FoSyoj7bga26Tl4Ku_400x400.png" id="projectPic"></a>
+        <a href="https://codepen.io/kresnik/pen/KxLRdr"><img src="./assets/pokemon-1513925_960_720.jpg" id="projectPic"></a>
       </div>
       <div class="col-4">
         <a href="https://jet-alone.github.io/tutorialPage/"><img src="./assets/cqsCtS5FoSyoj7bga26Tl4Ku_400x400.png" id="projectPic"></a>
       </div>
       <div class="col-4">
-        <a href="https://jet-alone.github.io/tutorialPage/"><img src="./assets/cqsCtS5FoSyoj7bga26Tl4Ku_400x400.png" id="projectPic"></a>
+        <a href="https://samplefirebase-2760c.firebaseapp.com/"><img src="./assets/ApplicationFrameHost_2018-10-10_22-36-43.png" id="projectPic"></a>
       </div>
     </div>
   </div>
+  <br>
+  <br>
 
   <!--About Me-->
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <p id="aboutMe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quis eum modi, ducimus ad sed. Natus ea enim distinctio officiis nostrum dolor doloribus rem modi ducimus quam fugit, quidem commodi?</p>
+  <section id="about">
+    <div class="container">
+      <div class="aboutAlign">
+        <h2 class="headerTwo"><a name="linkToAbout">ABOUT ME</a></h2>
+        <div class="col-12">
+          <p id="aboutMe">Hi, I'm Kyle! Nice to meet you. My coding journey
+            began a mere month ago right before joining the prestigious Eleven 
+            Fifty Academy to make things official. I started off self-teaching 
+            basic coding concepts through online classes and eventually decided
+             to step up my game at the Academy. I have a strong sense of design 
+             and hope to get my coding skills to eventually catch up. I have 
+             skills in JavaScript, HTML5, and CSS3. I also quickly developed
+              a passion for coding and love the logic of the languages.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+  <br>
+  <br>
+
+  <!--Icons-->
+  <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img src="./assets/html (1).svg" id="codeIcons">
+        </div>
+        <div class="col-4">
+          <img src="./assets/css (1).svg" id="codeIcons">
+        </div>
+        <div class="col-4">
+          <img src="./assets/java (1).svg" id="codeIcons">
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
 
   <!--Contact Form-->
-  <section id="about"></section>
-  <section id="portfolio"></section>
   <section id="contact">
    <div class="container">
-     <h2 class="text-center text-uppercase">Contact Me</h2>
+     <h2 class="text-center text-uppercase"><a name="linkToContact">Contact Me</a></h2>
      <div class="row">
-       <form action="https://formspree.io/kylebresnik@gmail.com" method="POST">
+       <form action="https://formspree.io/kylebresnik@gmail.com" method="POST" id="formStyle">
          <div class="control-group">
            <div class="form-group">
              <label>Name</label>
@@ -131,7 +160,14 @@
   </section>
   <br>
   <br>
+  <br>
   
+  <footer>
+    <div id="footerStyle">
+      <p>&copy;2018 Kyle Resnik</p>
+    </div>
+  </footer>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

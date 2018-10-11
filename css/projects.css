@@ -2,4 +2,7 @@
   overflow: hidden;
   border: 2px solid black;
   border-radius: 50%;
+  height: 250px;
+  margin: auto;
+  max-width: 500px;
 }
