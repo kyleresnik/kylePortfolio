@@ -1,6 +1,7 @@
 #navStyle{
   background-color: var(--green) !important;
   font-family: var(--font-one);
+  text-decoration-color: white;
 }
 #listStyle{
   margin-left: 75%;
